@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.title('Delivery Delay Prediction')
+st.title('delivery_delay Prediction')
 
 # Load the trained model
-model = joblib.load('Delivery_Delay.sav')
+model = joblib.load('delivery_delay.sav')
 
 st.write("Enter the features below to predict delivery delay.")
 
